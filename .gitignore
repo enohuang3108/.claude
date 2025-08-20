@@ -1,0 +1,14 @@
+*
+
+!CLAUDE.example.md
+!.gitignore
+!README.md
+
+!commands/
+!commands/*
+
+!agents/
+!agents/*
+
+!hooks/
+!hooks/*
