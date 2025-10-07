@@ -7,12 +7,23 @@ cd ~/.claude/
 git clone https://github.com/enohuang3108/commands.git
 ```
 
+## 本機已經有使用 claude code 的話
+
+```bash
+cd ~/.claude/
+git init
+git remote add origin https://github.com/enohuang3108/.claude.git
+git pull origin main
+```
+
 ## MCP
+
 ```bash
 claude mcp add -s user --transport http shadcn https://www.shadcn.io/api/mcp
 claude mcp add -s user playwright npx @playwright/mcp@latest
 claude mcp add -s user context7 -- npx -y @upstash/context7-mcp
 ```
+
 ## Source:
 
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
