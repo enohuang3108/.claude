@@ -21,6 +21,7 @@ git pull origin main
 ```bash
 claude mcp add -s user --transport http shadcn https://www.shadcn.io/api/mcp
 claude mcp add -s user playwright npx @playwright/mcp@latest
+claude mcp add -s user chrome-devtools npx chrome-devtools-mcp@latest
 claude mcp add -s user context7 -- npx -y @upstash/context7-mcp
 ```
 
